@@ -1,0 +1,32 @@
+.main {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding: 19px;
+  background-color: #3a3a3a0a;
+  border-radius: 20px;
+  &__img {
+    width: 32px;
+    height: 32px;
+    background-color: #3a3a3a14;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  &__data {
+    font-size: 20px;
+    line-height: 23px;
+  }
+  &__text {
+    font-size: 14px;
+    line-height: 16.1px;
+    color: #84868c;
+  }
+}

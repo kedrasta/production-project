@@ -1,0 +1,9 @@
+.main {
+  padding: 26px 120px 120px;
+  background-color: #0000000a;
+  min-height: calc(100vh - 72px);
+  &__text {
+    text-align: center;
+    padding: 10%;
+  }
+}

@@ -1,0 +1,13 @@
+.svg-favorite {
+  transition: all 0.5s ease-in-out;
+  stroke: none;
+}
+
+.svg-favorite path {
+  transition: fill 0.5s ease-in-out;
+  fill: #d44333;
+}
+
+.click {
+  display: flex;
+}

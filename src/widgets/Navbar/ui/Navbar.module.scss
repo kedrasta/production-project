@@ -1,0 +1,36 @@
+.app {
+  padding: 19.5px 123px;
+  display: flex;
+  gap: 46px;
+  background: var(--gray-color);
+
+  &__link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    &--first {
+      margin-right: auto;
+    }
+    &--count {
+      &::after {
+        padding: 1px 4px;
+        position: absolute;
+        bottom: 54%;
+        left: 80%;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        background-color: #d44333;
+        border-radius: 3px;
+        color: var(--white-color);
+        content: attr(data-count);
+      }
+    }
+  }
+
+  &__text {
+    font-size: 14px;
+    padding-left: 8px;
+    color: white;
+  }
+}
